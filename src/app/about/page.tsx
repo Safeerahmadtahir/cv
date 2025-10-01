@@ -1,3 +1,4 @@
+import Image from 'next/image';
 const About = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
@@ -31,10 +32,11 @@ When Im not coding, I love learning new skills, exploring digital design trends,
             </p>
           </div>
           <div className="relative h-96 rounded-lg overflow-hidden shadow-lg animate-fade-in-delayed">
-            <img
+            <Image
+              fill
               src="/my.jpg"
               alt="Team collaboration"
-              className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+              className="object-cover transition-transform duration-500 hover:scale-105"
             />
           </div>
         </div>

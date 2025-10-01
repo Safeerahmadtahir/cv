@@ -7,7 +7,7 @@ const Contact = () => {
             Contact Us
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Get in touch with us. We'd love to hear from you and answer any questions you may have.
+            Get in touch with us. We&apos;d love to hear from you and answer any questions you may have.
           </p>
         </div>
 
